@@ -38,6 +38,7 @@ module.exports = {
   plugins: [
     new HtmLWebpackPlugin({
       template: path.join(__dirname, './dist/index.html'),
+      favicon: './assets/favicon.ico',
     }),
   ],
 };
